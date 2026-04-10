@@ -39,3 +39,4 @@ erDiagram
         string payment_status "Pending / Paid"
         datetime created_at "Order timestamp"
     }
+ 
