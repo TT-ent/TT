@@ -6,7 +6,7 @@ erDiagram
     USERS ||--o{ GROUP_BUY_EVENTS : "creates"
     USERS ||--o{ ORDERS : "places"
     GROUP_BUY_EVENTS ||--o{ ORDERS : "contains"
-    erDiagram
+    
     %% Entity Relationships
     USERS ||--o{ GROUP_BUY_EVENTS : "creates"
     USERS ||--o{ ORDERS : "places"
