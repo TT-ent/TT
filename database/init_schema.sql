@@ -30,3 +30,4 @@ CREATE TABLE orders (
     CONSTRAINT fk_event FOREIGN KEY (event_id) REFERENCES group_buy_events(event_id) ON DELETE CASCADE,
     CONSTRAINT fk_user FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE
 );
+ 
