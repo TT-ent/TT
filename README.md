@@ -3,6 +3,7 @@ Below is the ER diagram for our group-buying system:
 
 ```mermaid
 erDiagram
+    %%
     USERS ||--o{ GROUP_BUY_EVENTS : "creates"
     USERS ||--o{ ORDERS : "places"
     GROUP_BUY_EVENTS ||--o{ ORDERS : "contains"
